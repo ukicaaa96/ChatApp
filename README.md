@@ -1,3 +1,5 @@
+# ChatApp
+
 ## The chat application consists of two parts
 
 -First part is a chat room where each user can see the message of any user.
