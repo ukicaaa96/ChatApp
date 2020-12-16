@@ -1,0 +1,45 @@
+<html>
+
+<head>
+</head>
+
+<link rel="stylesheet" href="css/style.css">
+<body>
+
+<div id="chat">
+
+    <form id = "myform">
+        <input type = "text" id = "message" name = "message">
+        <button type = 'button' id = "button" name = "add" value = "add"> Send </button><br>
+    </form>
+
+    <form id = "add">
+        <input type = "email" name = "email" id="email">
+        <button id="add-btn"> Add user </button>
+    </form>
+
+    <br>
+
+    <form id = "delete">
+        <input type = "email" name = "email" id="email">
+        <button id="delete-btn"> Delete user </button>
+    </form>
+
+    <form id = "private">
+        <input type = "email" name = "email" id="email">
+        <button id="private-btn"> Private chat </button>
+    </form>
+
+    <h2 id= "permission"> You don't have permission for this chat!</h2>
+</div>
+
+
+
+<div id = "messages"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"> </script>
+<script src="../javascript/chat.js"></script>
+<script src="../javascript/privatechat.js"></script>
+</body>
+
+</html>
